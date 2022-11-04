@@ -14,11 +14,13 @@ let snake = [
 let dx = 10;
 let dy = 0;
 
+let score = 0;
+
 const boardColour = "blue";
 const boardBorder = "black";
 const snakeColour = "red";
 const snakeBorder = "black";
-
+genFood();
 setInterval(animate, 100);
 function animate() {
   if (collisionDetected()) return;
@@ -26,6 +28,6 @@ function animate() {
   clearCanvas();
   moveSnake();
   drawSnake();
-  collisionDetection();
+  collisionDetected();
   drawFood();
 }
