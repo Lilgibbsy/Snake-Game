@@ -1,14 +1,14 @@
 let cnv = document.getElementById("myCanvas");
 let ctx = cnv.getContext("2d");
-cnv.width = 400;
-cnv.height = 400;
+cnv.width = 200;
+cnv.height = 200;
 
 let snake = [
-  { x: 200, y: 200 },
-  { x: 190, y: 200 },
-  { x: 180, y: 200 },
-  { x: 170, y: 200 },
-  { x: 160, y: 200 },
+  { x: 100, y: 100 },
+  { x: 90, y: 100 },
+  { x: 80, y: 100 },
+  { x: 70, y: 100 },
+  { x: 60, y: 100 },
 ];
 
 let dx = 10;
@@ -16,7 +16,7 @@ let dy = 0;
 
 let score = 0;
 
-const boardColour = "blue";
+const boardColour = "gray";
 const boardBorder = "black";
 const snakeColour = "red";
 const snakeBorder = "black";

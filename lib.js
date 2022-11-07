@@ -76,7 +76,7 @@ function genFood() {
 
 function drawFood() {
   ctx.fillStyle = "lightgreen";
-  ctx.strokeStyle = "darkgreen";
+  ctx.strokeStyle = "black";
   ctx.fillRect(foodX, foodY, 10, 10);
   ctx.strokeRect(foodX, foodY, 10, 10);
 }
