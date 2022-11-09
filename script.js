@@ -20,6 +20,7 @@ const boardColour = "gray";
 const boardBorder = "black";
 const snakeColour = "red";
 const snakeBorder = "black";
+
 genFood();
 setInterval(animate, 100);
 function animate() {
